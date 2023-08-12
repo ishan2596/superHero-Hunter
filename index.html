@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Hunter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- heading of app -->
+
+    <div id="heading">
+        <h1>MARVEL</h1>
+        <span id="text">SuperHero Hunter</span>
+       <a href="favorite.html">
+             <span id="favorite-tag">
+                <img src="icons8-favorite-50.png">Favorite
+             </span>
+       </a>
+    </div>
+
+    <!-- search box to search super hero -->
+
+    <div id="search-container">
+        <div class="search">
+            <input type="text" class="search-input" id="search-box"  placeholder="SEARCH" name="">
+            <a href="#" id="search-btn" class="search-icon">
+                <img src="search.png" >
+            </a>
+        </div>
+    </div>
+
+    <!-- container to show the super hero fetched from API -->
+
+    <div id="searchResult" class="data-container">
+        
+    </div>
+
+    <div class="data-container" id="data-container">
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="favorite.js"></script>
+</body>
+</html>

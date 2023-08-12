@@ -1,0 +1,27 @@
+.char-info{
+    display: flex;
+    margin-top: 1rem;
+    max-height: 400px;
+    padding: 1.5rem;
+}
+.poster{
+    flex: 1;
+    max-width: 400px;
+}
+
+.poster img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.info{
+    flex: 1;
+    font-size: 1.3rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+#char-details{
+    color: aliceblue;
+}
